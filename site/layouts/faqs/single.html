@@ -1,0 +1,25 @@
+{{ partial "head" . }}
+
+{{ partial "nav" . }}
+
+<div class="ph3 bg-off-white">
+	<div class="center mw6 pv3">
+
+		<div class="f2">{{ .Title }}</div>
+
+		<h3 class="f4 b lh-title mt4">{{ .Site.Params.faq1 }}</h3>
+		<p>{{ .Site.Params.faa1}}</p>
+
+		<h3 class="f4 b lh-title mt4">{{ .Site.Params.faq2 }}</h3>
+    <p>{{ .Site.Params.faa2}}</p>
+
+    <h3 class="f4 b lh-title mt4">{{ .Site.Params.faq3 }}</h3>
+    <p>{{ .Site.Params.faa3}}</p>
+
+    <h3 class="f4 b lh-title mt4">{{ .Site.Params.faq4 }}</h3>
+    <p>{{ .Site.Params.faa4}}</p>
+
+	</div>
+</div>
+
+{{ partial "footer" . }}

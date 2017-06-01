@@ -1,0 +1,32 @@
+<article class="vh-100 dt w-100 sans-serif cover bg-left bg-center-l sans-serif" style="background-image: url(img/sparkle-child-o.jpg)">
+  <nav class="absolute dt w-100 mw8 center">
+    <div class="dtc w2 v-mid pa3">
+      <a href="/" class="f4 fw6 pa1 hover-white no-underline white-90 grow-large">
+        {{ .Title }}
+      </a>
+    </div>
+    <div class="dtc v-mid tr pa3 ttu">
+      <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="#" >About</a>
+      <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="#" >News</a>
+      <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="#" >FAQs</a>
+      <a class="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="#" >Contact</a>
+      <!--a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/about" >About</a>
+      <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/news" >News</a>
+      <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/faqs" >FAQs</a>
+      <a class="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/contact" >Contact</a-->
+      <!--a class="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/" >Careers</a>
+      <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/" >Sign Up</a-->
+    </div>
+  </nav>
+  <div class="dtc v-mid tc white ph3 ph4-l bg-black-60">
+    <div class="mt2 w-100 ph3">
+            <div class="w-70-ns center tc">
+              <h1 class="f2 f2-l fw2 white mb0 lh-title">{{ .Site.Params.heroTitle }}</h1>
+              <h2 class="fw1 f5 white mt3 mb4">{{ .Site.Params.heroText }}</h2>
+              <a class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3 br2" href="/">Learn more...</a>
+              <span class="dib v-mid ph3 white-70 mb3">or</span>
+              <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3 br2" href="{{.Site.Params.slack}}" target="_blank">Join for Free</a>
+            </div>
+          </div>
+  </div>
+</article>

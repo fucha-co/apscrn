@@ -1,19 +1,15 @@
-<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
-
-	<!-- Logo -->
-	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-		<img src="/img/logo.svg" alt="Kaldi logo" class="br0 db mb0 w-100"/>
-	</a>
-
-	<!-- Primary Nav -->
-	<ul class="flex b grey-3">
-		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
-
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
-
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
-
-		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
-	</ul>
-
+<nav class="dt w-100 mw8 center bg-black">
+  <div class="dtc w2 v-mid pa3">
+    <a href="/" class="f4 fw6 pa1 hover-white no-underline white-90 grow-large">
+      {{ .Site.Params.Name }}
+    </a>
+  </div>
+  <div class="dtc v-mid tr pa3 ttu">
+    <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/about" >About</a>
+    <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/news" >News</a>
+    <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/faqs" >FAQs</a>
+    <a class="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/contact" >Contact</a>
+    <!--a class="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/" >Careers</a>
+    <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/" >Sign Up</a-->
+  </div>
 </nav>
